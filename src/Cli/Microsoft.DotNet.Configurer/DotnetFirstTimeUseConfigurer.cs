@@ -59,7 +59,7 @@ namespace Microsoft.DotNet.Configurer
             {
                 Stopwatch beforeFirstTimeUseNotice = Stopwatch.StartNew();
                 // Migrate the nuget state from earlier SDKs
-                NuGet.Common.Migrations.MigrationRunner.Run();
+                //NuGet.Common.Migrations.MigrationRunner.Run();
 
                 if (!_dotnetFirstRunConfiguration.NoLogo)
                 {
